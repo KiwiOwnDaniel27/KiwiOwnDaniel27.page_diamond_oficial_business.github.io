@@ -1,0 +1,132 @@
+html{
+    text-align: center;
+    background: url(IMG_black_diamond/Fondo.jpeg);
+    background-repeat: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blaka-hollow-regular {
+    font-family: "Blaka Hollow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+}
+
+h3{
+    margin-top: 50px;
+    margin-left: 205px;
+    margin-right: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);   
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+}
+
+
+p{
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+}
+
+
+.cuadrado{
+    background: rgb black;
+    text-align: center;
+    display: inline-flex;
+    margin: 24px;
+}
+
+
+.contenedor{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: rgb(92, 35, 145);
+    border-radius: 27px;
+}
+
+.encabezado{
+    margin: 1px 1px;
+}
+
+a{
+margin-top: auto;
+}
+
+footer{
+    background-color:  rgb(92, 35, 145);
+    padding: 10px;
+    color: white;
+    width: 1300px;
+    border-radius: 27px;
+}
+
+footer section{
+    float: left;
+    margin-right: 100px;
+    padding-left: 300px;
+}
+
+footer p{
+    float: center;
+}
+
+footer a{
+transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #ed25ff);
+    animation: rotar 5s linear infinite;
+    margin-left: 0px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+
+
+
+
+
