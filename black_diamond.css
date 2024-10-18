@@ -16,11 +16,12 @@ header{
 }
 
 h3{
+    background-position: center;
     margin-left: 130px;
     margin-right: 425px;
     color: rgb(255, 255, 255);
     font-size: 30px;
-    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);   
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
 }
 
 h2{
@@ -73,6 +74,9 @@ footer{
     color: white;
     width: 1300px;
     border-radius: 27px;
+    background: url(IMG_black_diamond/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer section{
