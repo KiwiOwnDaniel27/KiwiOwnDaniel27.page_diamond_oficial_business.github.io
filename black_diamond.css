@@ -1,10 +1,6 @@
 html{
     text-align: center;
-    background: url(IMG_black_diamond/Fondo.jpeg);
-    background-repeat: auto;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -63,6 +59,10 @@ p{
     margin-right: 50px;
     background: rgb(92, 35, 145);
     border-radius: 27px;
+    background: url(IMG_black_diamond/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .encabezado{
@@ -78,7 +78,11 @@ footer{
     padding: 10px;
     color: white;
     width: 1300px;
-    border-radius: 27px;
+    border-radius: 27px;}    
+    background: url(IMG_black_diamond/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 footer section{
